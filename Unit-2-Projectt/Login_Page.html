@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page Teamverse</title>
+    <script src="https://kit.fontawesome.com/2b408d1c6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Login.css">
+    <style>
+     
+
+    </style>
+</head>
+<body>
+    <div class="login-page">
+        <h1>Teamverse</h1>
+        <input type="text" placeholder="Email or corporate ID">
+        <button>Next</button>
+        <a href="">Forgot password?</a>
+        <p>or log in with</p>
+        <div id="img-flex">
+            <p><i class="fa-brands fa-google"></i>Google</p>
+            <p id="apple"><i class="fa-brands fa-apple"></i>signin with apple</p>
+            <p><i class="fa-brands fa-windows"></i></i>windows</p>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+    document.querySelector("button").addEventListener("click", myfun);
+    function myfun(){
+        let email = document.querySelector("input").value;
+        if(email == "saurabh03105@gmail.com" || email == "masaischool.com"){
+            alert("Logged in successfull");
+            
+        }
+        else if(email == "")
+        alert("Please enter email address");
+        else
+        alert("please enter correct eamil address");
+
+    }
+</script>
