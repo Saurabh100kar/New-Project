@@ -24,17 +24,26 @@
 #navbar h3{
     cursor: pointer;
 }
-
+#navbar h3:hover,#navbar a:hover{
+    color: #08CF65;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    padding: 2px;
+}
+#navbar .LOGO{
+    height: 100%;
+    width: 50px;
+    
+}
 #StartFree {
     background-color: #08CF65;
-    height: 40px;
+    height: 28px;
     width: 150px;
     margin: auto;
     color: white;
-    border-radius: 10px;
-    margin-top: 0px;
+    border-radius: 5px;
     border: none;
     font-size: 18px;
+    margin-top: 0px;
+    
 
 }
 

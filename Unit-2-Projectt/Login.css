@@ -17,14 +17,15 @@
   .login-page input{
     display: block;
     margin: auto;
-    text-align: center;
     height: 45px;
     width: 90%;
     font-size: 20px;
     background-color: #EDF1F6;
     border-radius: 10px;
     border: none;
-
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:1px solid  green;
+    text-align: inherit;
   }
   .login-page button{
     display: block;
@@ -67,4 +68,8 @@
   }
   body{
     background-color: #f0f9f7;
+  }
+  a{
+    text-decoration: none;
+    font-size: 16px;
   }

@@ -15,7 +15,7 @@
 <body>
     <div class="login-page">
         <h1>Teamverse</h1>
-        <input type="text" placeholder="Email or corporate ID">
+        <input type="email" placeholder="Email or corporate ID">
         <button>Next</button>
         <a href="">Forgot password?</a>
         <p>or log in with</p>
@@ -41,5 +41,11 @@
         else
         alert("please enter correct eamil address");
 
+    }
+
+    document.querySelector("a").addEventListener("click", forgotfun);
+    function forgotfun(){
+     
+        alert("We have sent an email for verification.");
     }
 </script>
